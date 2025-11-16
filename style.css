@@ -11,7 +11,7 @@ body{
     background-image: url(back.png);
 }
 .card{
-    width:450px;
+    width:350px;
     height: wrap;
     background-color: rgba(167, 132, 132, 0.4);
     backdrop-filter: blur(7px);
@@ -66,7 +66,7 @@ body{
    transition: 0.3s;
 }
 .git{
-    width: 450px;
+    width: 350px;
     background-color: rgba(167, 132, 132, 0.4);
     backdrop-filter: blur(7px);
     height: wrap;
