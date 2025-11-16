@@ -11,7 +11,7 @@ body{
     background-image: url(back.png);
 }
 .card{
-    width:400px;
+    width:55%;
     height: wrap;
     background-color: rgba(167, 132, 132, 0.4);
     backdrop-filter: blur(7px);
@@ -29,6 +29,13 @@ body{
     width: 75px;
     height: 75px;
     border-radius: 50%;
+      transform: rotate(0deg);
+        transition: 0.8s;
+}
+.ikun:hover{
+    transform: rotate(360deg);
+    transition: 0.8s;
+    border-radius: 0;
 }
 
 .card1{
@@ -40,6 +47,7 @@ body{
   padding: 10px;
 }
 .a1{
+  display: flex;
 
     width: 100%;
     height: 100px;
@@ -59,14 +67,15 @@ body{
    border: solid 2px rgb(255, 255, 255);
    transition: 0.3s;
    background-color: rgba(165, 143, 143, 0.3);
-}
+  border-radius: 0;
+  }
 .a2:hover{
    border: solid 2px rgb(255, 255, 255);
      background-color: rgba(165, 143, 143, 0.3);
    transition: 0.3s;
 }
 .git{
-    width: 350px;
+    width: 50%;
     background-color: rgba(167, 132, 132, 0.4);
     backdrop-filter: blur(7px);
     height: wrap;
@@ -79,6 +88,49 @@ body{
     transition: 0.8s;
 }
 
+.i1{
+  width: 100px;
+  height: 100px;
+    transition: 0.5s;
+  border-radius: 10px;
+
+}
+
+
+
+.a1:hover .i1{
+  border-radius: 0;
+  transition: 0.5s;
+    transform: translateX(257%);
+  }
+.a2:hover .i1 {
+  border-radius: 0;
+  transition: 0.5s;
+  transform: translateX(257%);
+}
+.a1:hover .message {
+  width: 100%;
+  transition: 0.5s;
+  display: block;
+  color: rgba(0, 0, 0, 1);
+  opacity: 1;
+}
+
+.message{
+  padding: 10px;
+  width: 0;
+opacity: 0;
+  transition: .5s;
+  position: absolute;
+white-space: nowrap;
+}
+.a1:hover .message {
+  width: 100%;
+  transition: 0.5s;
+ display: block;
+color: rgba(0, 0, 0, 1);
+opacity: 1;
+}
 
 /* From Uiverse.io by aarjaycreation */ 
 .main__socials {
