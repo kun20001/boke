@@ -11,7 +11,7 @@ body{
     background-image: url(back.png);
 }
 .card{
-    width:55%;
+    width:400px;
     height: wrap;
     background-color: rgba(167, 132, 132, 0.4);
     backdrop-filter: blur(7px);
@@ -32,6 +32,13 @@ body{
       transform: rotate(0deg);
         transition: 0.8s;
 }
+
+
+
+
+
+
+
 .ikun:hover{
     transform: rotate(360deg);
     transition: 0.8s;
@@ -39,8 +46,11 @@ body{
 }
 
 .card1{
-    width: 90%;
+  --parent-width: 350px;
+    /* 定义父元素宽度 */
+    width: var(--parent-width);
     height:wrap;
+        position: relative;
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 10px;
   margin-top: 10px;
@@ -49,7 +59,9 @@ body{
 .a1{
   display: flex;
 
-    width: 100%;
+  /* 定义父元素宽度 */
+  width:100%;
+
     height: 100px;
     background-color: rgba(255, 255, 255,0.3);
     border-radius: 10px;
@@ -73,9 +85,10 @@ body{
    border: solid 2px rgb(255, 255, 255);
      background-color: rgba(165, 143, 143, 0.3);
    transition: 0.3s;
+    border-radius: 0;
 }
 .git{
-    width: 50%;
+    width: wrap;
     background-color: rgba(167, 132, 132, 0.4);
     backdrop-filter: blur(7px);
     height: wrap;
@@ -101,20 +114,15 @@ body{
 .a1:hover .i1{
   border-radius: 0;
   transition: 0.5s;
-    transform: translateX(257%);
-  }
+  transform: translateX(250px);
+
+   }
 .a2:hover .i1 {
   border-radius: 0;
   transition: 0.5s;
-  transform: translateX(257%);
+  transform: translateX(250px);
 }
-.a1:hover .message {
-  width: 100%;
-  transition: 0.5s;
-  display: block;
-  color: rgba(0, 0, 0, 1);
-  opacity: 1;
-}
+
 
 .message{
   padding: 10px;
@@ -131,6 +139,11 @@ white-space: nowrap;
 color: rgba(0, 0, 0, 1);
 opacity: 1;
 }
+
+
+
+
+
 
 /* From Uiverse.io by aarjaycreation */ 
 .main__socials {
