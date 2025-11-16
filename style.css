@@ -11,7 +11,7 @@ body{
     background-image: url(back.png);
 }
 .card{
-    width:75%;
+    width:450px;
     height: wrap;
     background-color: rgba(167, 132, 132, 0.4);
     backdrop-filter: blur(7px);
@@ -58,8 +58,126 @@ body{
 .a1:hover{
    border: solid 2px rgb(255, 255, 255);
    transition: 0.3s;
+   background-color: rgba(165, 143, 143, 0.3);
 }
 .a2:hover{
    border: solid 2px rgb(255, 255, 255);
+     background-color: rgba(165, 143, 143, 0.3);
    transition: 0.3s;
+}
+.git{
+    width: 450px;
+    background-color: rgba(167, 132, 132, 0.4);
+    backdrop-filter: blur(7px);
+    height: wrap;
+    border: solid 1px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* From Uiverse.io by aarjaycreation */ 
+.main__socials {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5em;
+}
+
+.Link__instagram {
+  padding: 0.8em;
+  outline: none;
+  border: none;
+  background: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  transition: 0.2s ease-in-out;
+  border-radius: 5px;
+}
+
+.instagram {
+  fill: #cc39a4;
+}
+
+.Link__twitter {
+  padding: 0.8em;
+  outline: none;
+  border: none;
+  background: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  transition: 0.2s ease-in-out;
+  border-radius: 5px;
+}
+
+.twitter {
+  fill: #03a9f4;
+}
+
+.Link__github {
+  padding: 0.8em;
+  outline: none;
+  border: none;
+  background: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  transition: 0.2s ease-in-out;
+  border-radius: 5px;
+}
+
+.Link__discord {
+  padding: 0.8em;
+  outline: none;
+  border: none;
+  background: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  transition: 0.2s ease-in-out;
+  border-radius: 5px;
+}
+
+.discord {
+  fill: #8c9eff;
+}
+
+.Link__instagram:hover {
+  cursor: pointer;
+  scale: 1.1;
+  background-color: #cc39a4;
+}
+
+.Link__instagram:hover .instagram {
+  fill: white;
+}
+
+.Link__twitter:hover {
+  cursor: pointer;
+  scale: 1.1;
+  background-color: #03a9f4;
+}
+
+.Link__twitter:hover .twitter {
+  fill: white;
+}
+
+.Link__github:hover {
+  cursor: pointer;
+  scale: 1.1;
+  background-color: black;
+}
+
+.Link__github:hover .github {
+  fill: white;
+}
+
+.Link__discord:hover {
+  cursor: pointer;
+  scale: 1.1;
+  background-color: #8c9eff;
+}
+
+.Link__discord:hover .discord {
+  fill: white;
 }
